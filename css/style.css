@@ -1,0 +1,90 @@
+  body{
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(0, 0%, 100%);
+  }
+  .box{
+    width: 60vw;
+    border-radius: 1vw 1vw 1vw 1vw;
+    margin: auto;
+    background-color: hsl(216, 50%, 16%);
+    margin: 3vw 0 3vw 3vw;
+    padding: 3vw 0 3vw 3vw;
+  }
+  .image{
+    width: 57vw;
+    height: 57vw;
+    border-radius: 1vw 1vw 1vw 1vw;
+    background-image: url(../images/image-equilibrium.jpg);
+    background-size: cover;
+  }
+  .image:hover{
+    cursor: pointer;
+  }
+  .icon-view{
+    width: 5.8vw;
+    height: 5.8vw;
+    display: none;
+    background-color:  hsl(178, 100%, 50%);
+    opacity: 0.5;
+    border-radius: 1vw 1vw 1vw 1vw;
+  }
+  .image:hover .icon-view{
+    display: block;
+    padding: 45%;
+  }
+  h4{
+    font-size: 5vw;
+    margin: 3vw 3vw 3vw 3vw;
+  }
+  h4:hover{
+    color: hsl(178, 100%, 50%);;
+    cursor: pointer;
+  }
+  p{
+    font-size: 3vw;
+    color: hsl(215, 51%, 70%);
+    margin: 3vw 3vw 3vw 3vw;
+  }
+  .money{
+    margin: 3vw 3vw 3vw 3vw;
+  }
+  .left{
+    font-size: 3vw;
+    float: left;
+    color: hsl(178, 100%, 50%);
+  }
+  .left .icon-eth{
+  height: 3vw;
+  }
+  .rigth{
+    font-size: 3vw;
+    color: hsl(215, 51%, 70%);
+    float: right;
+  }
+  .rigth .icon-clo{
+    height: 3vw;
+  }
+  hr{
+    margin: 9vw 3vw 3vw 3vw;
+    color: hsl(215, 32%, 27%);
+    background-color: hsl(215, 32%, 27%);
+  }
+  .avatar{
+    width: 10%;
+    margin: 0 3vw 6vw 3vw;
+    border: 2px solid white;
+    border-radius: 3vw;
+  }
+  .footer{
+    float: right;
+    margin: 1vw 17vw 0 0;
+  }
+  .footer span{
+    color: hsl(178, 100%, 50%);
+  }
+  .footer span:hover{
+    cursor: pointer;
+  }
+
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
