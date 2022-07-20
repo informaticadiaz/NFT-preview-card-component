@@ -1,18 +1,20 @@
-  body{
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+    body{
     background-color: hsl(217, 54%, 11%);
     color: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
   }
   .box{
     width: 60vw;
     border-radius: 1vw 1vw 1vw 1vw;
     margin: auto;
     background-color: hsl(216, 50%, 16%);
-    margin: 3vw 0 3vw 3vw;
-    padding: 3vw 0 3vw 3vw;
+    margin: 3vw 3vw 3vw 3vw;
+    padding: 3vw 3vw 3vw 3vw;
   }
   .image{
-    width: 57vw;
-    height: 57vw;
+    width: 60vw;
+    height: 60vw;
     border-radius: 1vw 1vw 1vw 1vw;
     background-image: url(../images/image-equilibrium.jpg);
     background-size: cover;
@@ -34,7 +36,7 @@
   }
   h4{
     font-size: 5vw;
-    margin: 3vw 3vw 3vw 3vw;
+    
   }
   h4:hover{
     color: hsl(178, 100%, 50%);;
@@ -43,10 +45,7 @@
   p{
     font-size: 3vw;
     color: hsl(215, 51%, 70%);
-    margin: 3vw 3vw 3vw 3vw;
-  }
-  .money{
-    margin: 3vw 3vw 3vw 3vw;
+    
   }
   .left{
     font-size: 3vw;
@@ -60,18 +59,19 @@
     font-size: 3vw;
     color: hsl(215, 51%, 70%);
     float: right;
+    padding-left: 3w;
   }
   .rigth .icon-clo{
     height: 3vw;
   }
   hr{
-    margin: 9vw 3vw 3vw 3vw;
+    margin: 9vw 0 3vw 0;
+    
     color: hsl(215, 32%, 27%);
     background-color: hsl(215, 32%, 27%);
   }
   .avatar{
     width: 10%;
-    margin: 0 3vw 6vw 3vw;
     border: 2px solid white;
     border-radius: 3vw;
   }
